@@ -1,0 +1,46 @@
+:root {
+    --mr100: 'Montserrat Thin';
+    --mr300: 'Montserrat Medium';
+    --m400: 'Myriadpro';
+    --n400: 'Nunitosans';
+    --w400: 'WorkSans';
+    --r300: 'Roboto';
+    --white: #ffffff;
+    --black: #171717;
+    --grey: #f5f5f5;
+    --gray: #787878;
+    --gray-dark: #656565;
+    --green: #007d2f;
+}
+
+.contact__header {
+    padding: 15px 0;
+}
+
+.main__contactp {
+    text-align: left;
+    max-width: 500px;
+    width: 100%;
+    color: var(--gray-dark);
+    line-height: 30px;
+}
+
+.main__contact-p {
+    margin-top: 20px;
+}
+
+.main__contact-sp {
+    color: var(--gray-dark);
+}
+
+.main__contact-a {
+    color: var(--gray-dark);
+}
+
+.main__contact-a:hover {
+    color: var(--gray-dark);
+}
+
+.a-1 {
+    margin: 50px 0;
+}

@@ -1,0 +1,60 @@
+:root {
+    --mr100: 'Montserrat Thin';
+    --mr300: 'Montserrat Medium';
+    --m400: 'Myriadpro';
+    --n400: 'Nunitosans';
+    --w400: 'WorkSans';
+    --r300: 'Roboto';
+    --white: #ffffff;
+    --black: #171717;
+    --grey: #f5f5f5;
+    --gray: #787878;
+    --gray-dark: #656565;
+    --green: #007d2f;
+}
+
+.project__header {
+    padding: 15px 0;
+
+}
+
+.main__project-p:nth-of-type(2) {
+    margin: 30px 0;
+}
+
+.main__project-p:first-of-type {
+    margin-top: 30px;
+}
+
+.main__project-p {
+    font-family: var(--r300);
+    color: var(--gray);
+}
+
+.main__project-sp {
+    color: var(--black);
+}
+
+.main__project-a {
+    color: var(--gray);
+}
+
+.main__project-a:hover {
+    color: var(--gray);
+}
+
+.project__slider {
+    background-color: var(--green);
+}
+
+.main__prof-img {
+    object-fit: cover;
+    display: block;
+}
+
+
+@media(max-width:500px) {
+    .main__prject-10 {
+        padding: 15px 0;
+    }
+}

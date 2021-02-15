@@ -1,0 +1,46 @@
+
+
+:root {
+    --mr100: 'Montserrat Thin';
+    --mr300: 'Montserrat Medium';
+    --m400: 'Myriadpro';
+    --n400: 'Nunitosans';
+    --w400: 'WorkSans';
+    --r300: 'Roboto';
+    --white: #ffffff;
+    --black: #171717;
+    --grey: #f5f5f5;
+    --gray: #787878;
+    --gray-dark: #656565;
+    --green: #007d2f;
+}
+
+.home__header {
+    margin: 20px 0;
+}
+
+body {
+    font-family: var(--mr300);
+}
+
+.home__main10h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.home__main10p {
+    font-family: var(--r300);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    color: var(--white);
+}
+
+.home__main10 {
+    padding: 100px 0;
+    background-color: var(--green);
+}
+
+.main11-sp {
+    background-color:#458b5dcc;
+}
